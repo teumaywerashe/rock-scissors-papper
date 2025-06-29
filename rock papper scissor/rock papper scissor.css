@@ -1,0 +1,62 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.inner-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    font-size: 80px;
+    background-color: rgb(16, 0, 0);
+    color: rgb(214, 210, 210);
+    border: 3px solid white;
+    border-radius: 60px;
+    margin: 10px;
+}
+
+.button:hover {
+    background-color: rgb(155, 152, 152);
+    color: rgb(21, 54, 218);
+    transform: scale(0.9);
+}
+
+.button:active {
+    background-color: rgb(86, 31, 31);
+    color: rgb(21, 54, 218);
+    transform: scale(1.05);
+}
+
+#reset {
+    align-items: center;
+    justify-self: center;
+    justify-content: center;
+    text-align: center;
+    place-self: center;
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
